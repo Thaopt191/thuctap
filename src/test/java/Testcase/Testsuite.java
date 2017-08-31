@@ -84,7 +84,7 @@ public class Testsuite extends AbtractPreDefine {
 
         //step 4: do Login
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.performLogin("gl.han.thi1@gmail.com", "cuongnm15");
+        loginPage.performLogin("", "");
         OrderDetailPage orderDetailPage = new OrderDetailPage(driver);
         //Check if CheckBoxAgreeTerm is present or not ?
         orderDetailPage.isCheckBoxAgreeTermPresent();
